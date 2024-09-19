@@ -19,7 +19,7 @@ import plotly.graph_objects as go  # pip install plotly
 import streamlit as st  # pip install streamlit
 from streamlit_option_menu import option_menu  # pip install streamlit-option-menu
 
-return
+
 
 # Конфигурация Firebase
 firebaseConfig = {
@@ -263,4 +263,5 @@ def main():
 if __name__ == "__main__":
     #external_ip = get_external_ip()
     #st.write("External IP:", external_ip)
+    return
     main()
