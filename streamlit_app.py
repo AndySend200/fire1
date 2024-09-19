@@ -263,5 +263,4 @@ def main():
 if __name__ == "__main__":
     #external_ip = get_external_ip()
     #st.write("External IP:", external_ip)
-    return
-    main()
+    #main()
