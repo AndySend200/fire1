@@ -1,5 +1,9 @@
 .streamlit/secrets.toml
 
+# bloking vertion files
+.aver/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
