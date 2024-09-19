@@ -257,11 +257,22 @@ def main():
             else:
              st.warning("Пожалуйста, выберите период.")
              
-
+def main1():
+      # это прячет стиль приложения
+    # --- HIDE STREAMLIT STYLE ---
+    hide_st_style = """
+                <style>
+                #MainMenu {visibility: hidden;}
+                footer {visibility: hidden;}
+                header {visibility: hidden;}
+                </style>
+                """
+    st.markdown(hide_st_style, unsafe_allow_html=True)
+ 
 
 
 if __name__ == "__main__":
     #external_ip = get_external_ip()
     #st.write("External IP:", external_ip)
     #main()
-    a=1
+    main1()
