@@ -10,6 +10,8 @@
 
 # https://github.com/Sven-Bo/streamlit-income-expense-tracker  сам код
 
+# pigar generate
+
 import calendar  # Core Python Module
 from datetime import datetime  # Core Python Module
 
